@@ -21,6 +21,7 @@ public class Square {
         for(int i=0; i<sideLength; i++) {
             System.out.print("8");
         }
-        System.out.println();
     }
 }
+
+//1. Square. Write a program that will write to console an empty square of a given size(it should consist of '8'-s).
