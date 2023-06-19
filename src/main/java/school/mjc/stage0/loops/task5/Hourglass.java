@@ -3,21 +3,28 @@ package school.mjc.stage0.loops.task5;
 public class Hourglass {
     public void printHourglassOfGivenSize(int height) {
 
-        for(int i=0; i<height; i++) {
-            for(int j=0; j<i; j++) {
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
-            for(int j=i; j<height; j++) {
+            for (int j = i; j < height; j++) {
+                System.out.print("8");
+            }
+            for (int j = i; j < height - 1; j++) {
                 System.out.print("8");
             }
             System.out.println();
         }
 
-        for(int i=height-2; i>=0; i--) {
-            for(int j=0; j<i; j++) {
+        // print the bottom half of the hourglass
+        for (int i = height - 2; i >= 0; i--) {
+            for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
-            for(int j=i; j<height; j++) {
+            for (int j = i; j < height; j++) {
+                System.out.print("8");
+            }
+            for (int j = i; j < height - 1; j++) {
                 System.out.print("8");
             }
             System.out.println();
