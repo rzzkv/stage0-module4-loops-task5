@@ -15,6 +15,8 @@ public class Square {
                 System.out.print(" ");
             }
             System.out.println("8");
+
+
         }
 
         // Printing the bottom edge of the square
